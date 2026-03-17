@@ -1,5 +1,12 @@
 # 💳 Fraud Detection System (Machine Learning)
 
+pandas
+numpy
+scikit-learn
+matplotlib
+seaborn
+imbalanced-learn
+
 ## 📊 Problem Statement
 Detect fraudulent financial transactions using machine learning to minimize financial losses.
 
@@ -91,3 +98,8 @@ y_pred = model.predict(X_test)
 # Evaluation
 from sklearn.metrics import accuracy_score
 print("Accuracy:", accuracy_score(y_test, y_pred))
+
+from sklearn.metrics import classification_report, confusion_matrix
+
+print(confusion_matrix(y_test, y_pred))
+print(classification_report(y_test, y_pred))
