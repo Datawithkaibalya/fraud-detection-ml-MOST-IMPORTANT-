@@ -1,4 +1,39 @@
-# Fraud Detection System (Machine Learning)
+# 💳 Fraud Detection System (Machine Learning)
+
+## 📊 Problem Statement
+Detect fraudulent financial transactions using machine learning to minimize financial losses.
+
+## 🏦 Domain
+Banking, Financial Services, Insurance (BFSI)
+
+## 🛠️ Tech Stack
+Python, Pandas, NumPy, Scikit-learn, Imbalanced-learn
+
+## ⚙️ Project Workflow
+- Data Cleaning & Preprocessing
+- Handling Imbalanced Data using SMOTE
+- Feature Engineering
+- Model Building (Logistic Regression, Random Forest)
+- Model Evaluation
+
+## 📈 Results
+- Achieved ~90% accuracy
+- Improved fraud detection using precision & recall
+- Reduced false negatives (critical in fraud detection)
+
+## 📊 Evaluation Metrics
+- Accuracy Score
+- Confusion Matrix
+- Precision, Recall, F1-score
+
+## 🚀 Business Impact
+- Helps banks detect fraud early
+- Reduces financial loss
+- Improves transaction security
+
+## 📌 Future Improvements
+- Deploy using Flask/Streamlit
+- Real-time fraud detection system# Fraud Detection System (Machine Learning)
 
 ## 📊 Problem Statement
 Detect fraudulent transactions using machine learning techniques.
